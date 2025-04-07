@@ -1,6 +1,6 @@
-# AI Webcam Demo
+# AI webcam recognition
 
-Ein einfaches Python-Projekt zur Objekterkennung über die Webcam mit einem KI-Modell.
+Ein kleines progress Repo bei der Erstellung eines eigenen KI-Modells. Später wird das KI-Modell in einem NAO Uni-Projekt weiterverwendet, um dem NAO Fußball spielen beizubringen. 
 
 ## Setup
 
@@ -22,3 +22,8 @@ Drücke **Q**, um das Live-Bild zu beenden.
 
 > Modell: `yolov8n.pt` wird automatisch von Ultralytics geladen (kleines, schnelles Modell).
 > Kann später durch dein eigenes Modell ersetzt werden.
+
+
+## Entwicklungsfortschritt
+
+👉 [Hier geht's zum Devlog](DEVLOG.md)
