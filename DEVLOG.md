@@ -1,6 +1,6 @@
 # Projekt-Progress Log (Devlog)
 
-[Zurück zum Projekt](README.md)
+[Zurück zum Projekt](../)
 
 ## 07.04.2025 - Beginn
 - Projekt initialisiert
