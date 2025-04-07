@@ -1,0 +1,57 @@
+# === Python Basics ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# === Virtual Environments ===
+venv/
+.env/
+.venv/
+env/
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === VSCode & Editor Stuff ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === OS-Spezifisch ===
+.DS_Store
+Thumbs.db
+
+# === AI/ML Models & Outputs ===
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+*.tflite
+*.joblib
+*.pkl
+models/
+checkpoints/
+runs/
+output/
+logs/
+
+# === Data Files ===
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.zip
+*.tar.gz
+*.npy
+*.npz
+
+# === Others ===
+*.bak
+*.tmp
