@@ -1,4 +1,4 @@
-# AI webcam recognition
+# camera recognition AI
 
 Ein kleines progress Repo bei der Erstellung eines eigenen KI-Modells. Später wird das KI-Modell in einem NAO Uni-Projekt weiterverwendet, um dem NAO Fußball spielen beizubringen. 
 
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## Ausführen
 
 ```bash
-python webcam_detect.py
+python cam_detect.py
 ```
 
 Drücke **Q**, um das Live-Bild zu beenden.
