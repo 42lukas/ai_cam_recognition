@@ -1,4 +1,4 @@
-# YOLOv8 Webcam Demo
+# AI Webcam Demo
 
 Ein einfaches Python-Projekt zur Objekterkennung über die Webcam mit einem KI-Modell.
 
