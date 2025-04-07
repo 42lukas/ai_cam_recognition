@@ -1,5 +1,7 @@
 # Projekt-Progress Log (Devlog)
 
+[Zurück zum Projekt](README.md)
+
 ## 07.04.2025 - Beginn
 - Projekt initialisiert
 - Git-Repository erstellt
