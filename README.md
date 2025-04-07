@@ -1,6 +1,6 @@
 # YOLOv8 Webcam Demo
 
-Ein einfaches Python-Projekt zur Objekterkennung über die Webcam mit einem vortrainierten YOLOv8-Modell.
+Ein einfaches Python-Projekt zur Objekterkennung über die Webcam mit einem KI-Modell.
 
 ## Setup
 
@@ -21,10 +21,4 @@ Drücke **Q**, um das Live-Bild zu beenden.
 ---
 
 > Modell: `yolov8n.pt` wird automatisch von Ultralytics geladen (kleines, schnelles Modell).
-> Kann später durch dein eigenes Modell (`best.pt`) ersetzt werden.
-
-## Ziel
-- YOLOv8 verstehen
-- Kamerazugriff üben
-- Bild-Erkennung lokal testen
-- Know-how für dein NAO-Projekt sammeln
+> Kann später durch dein eigenes Modell ersetzt werden.
