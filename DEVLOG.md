@@ -14,3 +14,5 @@
 - Video von einem Ball aufgenommen für Trainingsdaten
 
 ## 02.05.2025 - Trainingsdaten vorbereiten
+- sliced video in different training images
+- labeled every picture with labellmg
