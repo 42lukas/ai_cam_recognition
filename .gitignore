@@ -55,3 +55,10 @@ logs/
 # === Others ===
 *.bak
 *.tmp
+
+# === Training Data ===
+/dataset/
+/dataprep/data.mov
+
+# === Configuration Files ===
+data.yaml
