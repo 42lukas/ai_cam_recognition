@@ -23,6 +23,13 @@
 - schließlich mit dem gespeicherten Modell "val" Bilder genutzt um zu testen, ob das Modell nun den Ball zuverlässig erkennt
 - vorerst Erfolgreich
 
+## 04.05.2025
+- ich habe mit Roboflow neue trainingsbilder generiert
+- aus den vorhandenen Bildern wurde welche mit rauschen, anderer Helligkeit, usw.
+- insgesamt nun über 350 trainingsbilder und 75 Epochen
+- neues besseres/robusteres KI-Modell
+- vorerst Erfolgreich
+
 
 
 # ToDo:
