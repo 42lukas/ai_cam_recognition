@@ -53,3 +53,4 @@ logs/
 # === Others ===
 *.bak
 *.tmp
+/roboflow/
