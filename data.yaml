@@ -1,0 +1,5 @@
+path: dataset
+train: /Users/lukaskarsten/Desktop/Informatik/Python/ai_cam_recognition/dataset/images/train
+val: /Users/lukaskarsten/Desktop/Informatik/Python/ai_cam_recognition/dataset/images/val
+names:
+  0: ball

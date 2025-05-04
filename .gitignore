@@ -28,7 +28,6 @@ env/
 Thumbs.db
 
 # === AI/ML Models & Outputs ===
-*.pt
 *.pth
 *.onnx
 *.ckpt
@@ -38,7 +37,6 @@ Thumbs.db
 *.pkl
 models/
 checkpoints/
-runs/
 output/
 logs/
 
@@ -55,6 +53,3 @@ logs/
 # === Others ===
 *.bak
 *.tmp
-
-# === Configuration Files ===
-data.yaml
