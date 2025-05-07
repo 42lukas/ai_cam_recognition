@@ -27,10 +27,12 @@ split_index = int(len(raw_image_array) * 0.8)
 train_array = raw_image_array[:split_index]
 val_array = raw_image_array[split_index:]
 
+# 363
 for i, image in enumerate(train_array):
-  cv2.imwrite(f"./dataset/images/train/train_{i:04d}.jpg", image)
+  cv2.imwrite(f"./dataset/images/train/train_{i+364:04d}.jpg", image)
   print(f"Saved train image {i}.jpg")
 
+# 93
 for i, image in enumerate(val_array):
-  cv2.imwrite(f"./dataset/images/val/val_{i:04d}.jpg", image)
+  cv2.imwrite(f"./dataset/images/val/val_{i+94:04d}.jpg", image)
   print(f"Saved val image {i}.jpg")
