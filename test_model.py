@@ -6,7 +6,7 @@ model_path = f"runs/train/{run_name}/weights/best.pt"
 trained_model = YOLO(model_path)
 
 # Auf testbuild anwenden
-results = trained_model("dataset/images/val/val_0085.jpg")  # Beispielbild aus Val-Set
+results = trained_model("dataset/images/val/val_0090.jpg")  # Beispielbild aus Val-Set
 results[0].show()
 
 # Ausgabe-Infos
