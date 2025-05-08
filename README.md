@@ -26,11 +26,15 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ## Neue Trainingsdaten vorbereiten
 
 Um neue Traingsdaten vorzubereiten kann man einige Bilder oder ein Video verwenden. 
-Mit der Datei `dataprep`/`video_slicing.py` kann ein Video in verschiedene Bilder umgewandelt und automatisch in die `train/` und `val/` Verzeichnisse soritert werden (80% `train/` und 20% `val/`).
-Sonst die Bilder einzeln im `dataset` Ordner einsortieren und vernünftig in dem Format `train_XXXX.jpg` mit dem passenden Label `train_XXXX.txt` speichern. Dabei kommen die `*.jpg` Dateien in den `images/` Ordner und die `*.txt` in den Labels Ordner. 
 
--
-Zum Labeln der Bilder empfehle ich dieses [Repository](https://github.com/HumanSignal/labelImg). Folge der Installation in dem Repository.
+Mit der Datei `dataprep`/`video_slicing.py` kann ein Video in verschiedene Bilder umgewandelt und automatisch in die `train/` und `val/` Verzeichnisse soritert werden (80% `train/` und 20% `val/`).
+
+Sonst die Bilder einzeln im `dataset/` Ordner einsortieren und vernünftig in dem Format `train_XXXX.jpg` mit dem passenden Label `train_XXXX.txt` speichern. Dabei kommen die `*.jpg` Dateien in den `images/` Ordner und die `*.txt` in den `labels/` Ordner. 
+
+
+Zum Labeln der Bilder empfehle ich dieses [Repository](https://github.com/HumanSignal/labelImg). Folge der Installation in dem Repository und starte die python Datei, um mit dem Labeln zu beginnen.
+
+## Labeln der neuen Traingsdaten
 
 Danach öffne den Ordner mit den neuen Trainingsbildern und makiere in jedem Bild das gebrauchte Objekt. Nachdem man alle Bilder makiert hat liegen alle passenden Label `*.txt` Dateien im selben Verzeichnis. Verschiebe alle Dateien z.B. mit diesem Befehl für macOS:
 ```bash
@@ -43,7 +47,7 @@ Move-Item -Path .\dataset\images\train\*.txt -Destination .\dataset\labels\train
 ```
 Sind nun alle `train_XXXX.jpg` Dateien im `dataset/images/train/`  und alle `val_XXXX.jpg` Dateien im `dataset/images/val/` Ordner, sowie alle Labeldateien `train_XXXX.txt oder val_XXXX.txt` im Ordner `dataset/labels/train/ oder dataset/labels/val/` kann das KI-Modell neu trainiert werden.
 
-## KI trainieren mit trainingsdaten
+## KI trainieren mit Trainingsdaten
 
 Vor dem trainiern sollte man sicherstellen, dass ein neuer Name für das Modell ausgesucht wird und die Parameter für das Training angepasst werden.
 ```python
