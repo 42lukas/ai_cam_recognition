@@ -54,3 +54,4 @@ logs/
 *.bak
 *.tmp
 /roboflow/
+*.MOV
