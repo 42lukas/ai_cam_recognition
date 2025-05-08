@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Modell nach dem Training laden
-run_name = "ball_model_v2"
+run_name = "ball_model_v32"
 model_path = f"runs/train/{run_name}/weights/best.pt"
 trained_model = YOLO(model_path)
 
