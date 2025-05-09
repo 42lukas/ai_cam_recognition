@@ -2,15 +2,17 @@ from ultralytics import YOLO
 
 
 # 1. Lade vortrainiertes YOLOv8n-Modell
+# wenn man basierend auf das alte modell das neue erstellen möchte, muss man einfach nur den pfad des alten modells angeben
+# bsp: model = YOLO("runs/train/ball_model_v4/weights/best.pt")
 model = YOLO("yolov8n.pt")
 
 # 2. Starte das Training
 model.train(
     data="data.yaml",
-    epochs=50,
+    epochs=75,
     imgsz=640,
     batch=16,
-    name="ball_model_v3",
+    name="ball_model_v4",
     project="runs/train",
     verbose=True,
     visualize=True,
@@ -23,5 +25,6 @@ model.train(
     perspective=0.0005,
     hsv_h=0.015,
     hsv_s=0.7,
-    hsv_v=0.4
+    hsv_v=0.4,
+    device="cuda:0" # hier wird GPU verwendet
 )
