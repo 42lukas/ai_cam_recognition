@@ -30,6 +30,17 @@
 - neues besseres/robusteres KI-Modell
 - vorerst Erfolgreich
 
+## 07.05.2025
+- live kamera test durchgeführt mit aktuellstem Modell
+- Test war vorerst Erfolgreich, blauer Ball wurde konstant erkannt, rot und gelb eher nicht
+- neue Trainingsdaten in Form eines Videos für den gelben und roten Ball aufgenommen
+- Trainingsdaten für den gelben Ball vorbereitet
+- neues Modell trainiert
+
+## 09.05.2025
+- Trainingsdaten aus dem Video des roten Ball vorbereitet (labeln)
+- neues KI Modell trainineren
+- erste mal über die GPU trainiert => viel schneller als mit Mac CPU (4 Std. gegen wenige Min)
 
 
 # ToDo:
