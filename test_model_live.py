@@ -7,7 +7,7 @@ model_path = f"runs/train/{run_name}/weights/best.pt"
 trained_model = YOLO(model_path)
 
 # Webcam starten
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 if not cap.isOpened():
     print("Kamera konnte nicht gestartet werden.")
