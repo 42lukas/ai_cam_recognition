@@ -12,7 +12,7 @@ model.train(
     epochs=75,
     imgsz=640,
     batch=16,
-    name="ball_model_v4",
+    name="Model_v5",
     project="runs/train",
     verbose=True,
     visualize=True,
