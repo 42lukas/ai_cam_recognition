@@ -6,7 +6,7 @@ val_array = []
 train_array = []
 
 # Load the video
-video_path = "dataprep/data.mp4"
+video_path = "dataprep/data.MP4"
 vidcap = cv2.VideoCapture(video_path)
 success,image = vidcap.read()
 
@@ -27,12 +27,12 @@ split_index = int(len(raw_image_array) * 0.8)
 train_array = raw_image_array[:split_index]
 val_array = raw_image_array[split_index:]
 
-# 1000
+# 1237
 for i, image in enumerate(train_array):
-  cv2.imwrite(f"./dataset/images/train/train_{i+1001:04d}.jpg", image)
+  cv2.imwrite(f"./dataset/images/train/train_{i+1238:04d}.jpg", image)
   print(f"Saved train image {i}.jpg")
 
-# 254
+# 314
 for i, image in enumerate(val_array):
-  cv2.imwrite(f"./dataset/images/val/val_{i+255:04d}.jpg", image)
+  cv2.imwrite(f"./dataset/images/val/val_{i+315:04d}.jpg", image)
   print(f"Saved val image {i}.jpg")
