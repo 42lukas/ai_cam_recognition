@@ -4,7 +4,7 @@ from ultralytics import YOLO
 # 1. Lade vortrainiertes YOLOv8n-Modell
 # wenn man basierend auf das alte modell das neue erstellen möchte, muss man einfach nur den pfad des alten modells angeben
 # bsp: model = YOLO("runs/train/ball_model_v4/weights/best.pt")
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8m.pt")
 
 # 2. Starte das Training
 model.train(
@@ -12,7 +12,7 @@ model.train(
     epochs=75,
     imgsz=640,
     batch=16,
-    name="Model_v5",
+    name="Model_v6m",
     project="runs/train",
     verbose=True,
     visualize=True,
